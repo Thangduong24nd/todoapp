@@ -1,0 +1,19 @@
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+<div class="container">
+    <a href="/"><h3>Home page</h3></a>
+    <h2>Create todo</h2>
+    <form action="/createtd" method="POST">
+        <div class="form-group">
+            <label>Todo name</label>
+            <input class="form-control" type="text" name='todoTask'>
+        </div>
+        
+        <input id="add-btn" class="btn btn-primary" type="submit" value="Create">
+    </form>
+</div>
+</body>
